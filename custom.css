@@ -1,10 +1,13 @@
-
+:root {
+    --main-bg: #fdfdfd;
+    --main-fg: #454545;
+}
 .ld-custom-name {
-    color: black;
+    color: var(--main-fg);
 }
 
 .ld-custom-name:visited {
-    color: black;
+    color: var(--main-fg);
 }
 
 .ld-custom-button-container {
@@ -17,8 +20,8 @@
     -webkit-transition: -webkit-transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
     -webkit-transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
     transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
-    background-color: #2665d6;
-    color: #fff;
+    background-color: var(--main-bg);
+    color: var(--main-fg);
 }
 
 .ld-custom-button-container:hover {
@@ -37,5 +40,5 @@
 }
 
 .ld-custom-background-layer {
-    background-color: #fff;
+    background-color: var(--main-bg);
 }
